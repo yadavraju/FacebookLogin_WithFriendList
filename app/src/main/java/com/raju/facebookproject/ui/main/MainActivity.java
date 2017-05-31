@@ -27,8 +27,6 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
-
-
 public class MainActivity extends AppCompatActivity implements MainView, View.OnClickListener {
 
     private MainPresenter mainPresenter;

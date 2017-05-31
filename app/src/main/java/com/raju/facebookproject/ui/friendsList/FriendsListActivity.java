@@ -15,8 +15,6 @@ import com.raju.facebookproject.data.model.FriendItemData;
 
 import java.util.ArrayList;
 
-
-
 public class FriendsListActivity extends AppCompatActivity implements FriendsListView {
     private ArrayList<FriendItemData> friendsList = new ArrayList<FriendItemData>();
     private SwipeRefreshLayout swipeLayout;
