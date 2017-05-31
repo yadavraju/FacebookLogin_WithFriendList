@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FaceBookProject</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1836924463295247</string>
+    <string name="friends_list">Show Friends List</string>
+    <string name="login_using_loginmanager">FB Login using LoginManager</string>
+    <string name="title_activity_fbfriends_list">My Friend List</string>
+    <string name="success_login">Success Login</string>
+    <string name="user">"User = "</string>
+    <string name="token">"Token = "</string>
+    <string name="loginErrorMessage">Please Login</string>
+</resources>

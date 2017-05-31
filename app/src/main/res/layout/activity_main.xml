@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context=".ui.main.MainActivity">
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fbButton"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="@dimen/facebook_btn_size"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_or"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@id/fbButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:text="----------------OR----------------" />
+
+    <Button
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/but_LoginFBLoginManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_or"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="@string/login_using_loginmanager" />
+
+    <TextView
+        android:id="@+id/tv_LoginResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/but_LoginFBLoginManager" />
+
+    <Button
+        android:id="@+id/btn_showFriendsList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_LoginResult"
+        android:text="@string/friends_list"
+        android:visibility="invisible" />
+
+</RelativeLayout>
